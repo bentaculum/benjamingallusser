@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Software Engineer and Research Assistant"
+role = "PhD student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Harvard Medical School", url = "" } ]
+organizations = [ { name = "École Polytechnique Fédérale de Lausanne (EPFL)", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -34,6 +34,16 @@ email = ""
 user_groups = []
 
 # List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD student"
+  institution = "École Polytechnique Fédérale de Lausanne"
+  year = "2021-"
+
+[[education.courses]]
+  course = "Research Assistant and Software Engineer"
+  institution = "Harvard Medical School"
+  year = "2020"
+
 [[education.courses]]
   course = "Visiting Student Researcher"
   institution = "Howard Hughes Medical Institute, Janelia Research Campus"
@@ -60,20 +70,20 @@ user_groups = []
   link = "mailto:benjamin.gallusser@protonmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
- [[social]]
-   icon = "cv"
-   icon_pack = "ai"
-   link = "files/cv.pdf"
+#  [[social]]
+#   icon = "cv"
+#   icon_pack = "ai"
+#   link = "files/cv.pdf"
 
-#[[social]]
-#  icon = "twitter"
-#  icon_pack = "fab"
-#  link = "https://twitter.com/GeorgeCushen"
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/bengallusser"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/benjamin9555"
+  link = "https://github.com/bentaculum"
 
 [[social]]
   icon = "google-scholar"
@@ -87,12 +97,11 @@ user_groups = []
 
 +++
 ### Short bio 
+I am currently a PhD student in [Martin Weigert's group](https://www.epfl.ch/labs/weigert-lab/) at EPFL in Switzerland, where I develop machine-learning based methods for analysing microscopy images of the building blocks of life.
+Proteins, organelles, cells, tissues or even entire animals; to learn about them we can often simply take a (sophisticated) picture or video. And after that we need to extract quantitative information from our recordings!
+While supervised deep learning is enjoying a lot of success for processing bioimages, it is often limited by a lack of appropriate ground truth annotations. How can we incorporate uncurated images that come fresh off the microscope into training neural networks?
 
-I take pleasure in developing computational methods to answer scientific questions and to make the world more enjoyable.
-I have obtained a Master's degree in Computer Science from [ETH Zürich](https://inf.ethz.ch) with a focus on Machine Learning and got excited about using it for analyzing large microscopy image datasets. 
+If you are excited about this as well please reach out :)
 
-Currently, I am developing and carrying out the computational efforts to automate cell organelle segmentation in electron microscopy data in [Tom Kirchhausen's lab](https://kirchhausen.hms.harvard.edu) at Harvard Medical School. Among other intriguing things, Tom's lab uses various state-of-the-art microscopy imaging techniques 
-<!--such as [lattice light-sheet](https://en.wikipedia.org/wiki/Lattice_light-sheet_microscopy) and [serial block-face scanning electron microscopy](https://www.embl.de/services/core_facilities/em/services/fibsem/),-->
-to examine subcellular and molecular structures in order to advance the understanding of many diseases such as cancer and viral infections. 
 
-Before starting my current position, I spent time at the [Janelia Research Campus](https://www.janelia.org/) for writing my [Master's thesis](https://github.com/benjamin9555/project_summaries/blob/master/msc_thesis_learning_to_agglomerate_in_region_adjacency_graphs.pdf). I worked on 3D Neuron Reconstruction from electron microscopy images with [Jan Funke](https://www.janelia.org/lab/funke-lab/), whose group mainly develops Computer Vision and Machine Learning methods for analyzing microscopy images of brains. 
+Previously, I have worked on automating cell organelle segmentation in electron microscopy data in [Tom Kirchhausen's lab](https://kirchhausen.hms.harvard.edu) at Harvard Medical School, as well as on [3D neuron reconstruction](https://github.com/benjamin9555/project_summaries/blob/master/msc_thesis_learning_to_agglomerate_in_region_adjacency_graphs.pdf) from electron microscopy in [Jan Funke's group](https://www.janelia.org/lab/funke-lab/).
