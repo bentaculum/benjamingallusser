@@ -36,26 +36,26 @@ user_groups = []
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "PhD student"
-  institution = "École Polytechnique Fédérale de Lausanne"
-  year = "2021-"
+  institution = "EPF Lausanne"
+  year = "since 2021"
 
 [[education.courses]]
-  course = "Research Assistant and Software Engineer"
+  course = "Research Software Engineer"
   institution = "Harvard Medical School"
   year = "2020"
 
 [[education.courses]]
   course = "Visiting Student Researcher"
-  institution = "Howard Hughes Medical Institute, Janelia Research Campus"
+  institution = "HHMI Janelia, USA"
   year = "2019"
 
 [[education.courses]]
-  course = "M.Sc. in Computer Science"
+  course = "M.Sc. Computer Science"
   institution = "ETH Zürich"
   year = "2016-2019"
 
 [[education.courses]]
-  course = "B.Sc. in Informatics"
+  course = "B.Sc. Informatics"
   institution = "Technical University of Munich"
   year = "2012-2016"
 
@@ -96,12 +96,20 @@ user_groups = []
     link = "https://www.linkedin.com/in/bengallusser"
 
 +++
-### Short bio 
-I am currently a PhD student in [Martin Weigert's group](https://www.epfl.ch/labs/weigert-lab/) at EPFL in Switzerland, where I develop machine-learning based methods for analysing microscopy images of the building blocks of life.
+I am currently a PhD student in [Martin Weigert's group](https://www.epfl.ch/labs/weigert-lab/) at EPFL in Switzerland, where I develop machine-learning-based methods for analysing microscopy images of the building blocks of life.
+
 Proteins, organelles, cells, tissues or even entire animals; to learn about them we can often simply take a (sophisticated) picture or video. And after that we need to extract quantitative information from our recordings!
-While supervised deep learning is enjoying a lot of success for processing bioimages, it is often limited by a lack of appropriate ground truth annotations. How can we incorporate uncurated images that come fresh off the microscope into training neural networks?
 
-If you are excited about this as well please reach out :)
+While supervised deep learning is enjoying a lot of success for processing bioimages, it is often limited by a lack of appropriate ground truth annotations. How can we incorporate uncurated images fresh off the microscope into training neural networks?
 
+If you are excited about this as well please [reach out](mailto:benjamin.gallusser@protonmail.com) :)
 
-Previously, I have worked on automating cell organelle segmentation in electron microscopy data in [Tom Kirchhausen's lab](https://kirchhausen.hms.harvard.edu) at Harvard Medical School, as well as on [3D neuron reconstruction](https://github.com/benjamin9555/project_summaries/blob/master/msc_thesis_learning_to_agglomerate_in_region_adjacency_graphs.pdf) from electron microscopy in [Jan Funke's group](https://www.janelia.org/lab/funke-lab/).
+Previously, I have worked on automating cell organelle segmentation in electron microscopy data in [Tom Kirchhausen's lab](https://kirchhausen.hms.harvard.edu) at Harvard Medical School, as well as on 3D neuron reconstruction from electron microscopy in [Jan Funke's group](https://www.janelia.org/lab/funke-lab/) at HHMI Janelia.
+
+### Teaching:
+- Bioimage Informatics @ EPF Lausanne (2022, 2023)
+- Deep Learning for Microscopy Image Analysis @ MBL Woods Hole (2022)
+- Deep Learning for Image Analysis @ EMBL Heidelberg (2022)
+- Image Processing 1 @ EPF Lausanne (2022)
+- Natural Language Understanding @ ETH Zürich (2018, 2019)
+- Advanced Machine Learning @ ETH Zürich (2017)
